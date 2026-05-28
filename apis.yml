@@ -1,0 +1,32 @@
+aid: national-grid-eso
+name: National Grid ESO
+description: "Open data from Great Britain’s Electricity System Operator"
+url: https://data.nationalgrideso.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Environment"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Environment
+  - Public APIs
+apis:
+  - name: National Grid ESO
+    description: "Open data from Great Britain’s Electricity System Operator"
+    humanURL: https://data.nationalgrideso.com/
+    baseURL: https://data.nationalgrideso.com/
+    tags:
+      - Environment
+    properties:
+      - type: Documentation
+        url: https://data.nationalgrideso.com/
+common:
+  - type: Website
+    url: https://data.nationalgrideso.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
